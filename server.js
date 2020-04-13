@@ -1,8 +1,10 @@
 const express = require("express");
+const morgan = require("morgan");
 const JsonldService = require("./app/jsonld-service");
 
 const app = express();
 app.use(express.json({ limit: "1mb" }));
+app.use(morgan("tiny"));
 
 app.get("/", (_, res) => {
   res.send("JsonLd Service");
