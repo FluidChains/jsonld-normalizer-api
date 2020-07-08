@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  jsonld-normalizer-api:
+    image: fluidchains/jsonld-normalizer-api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 9001
