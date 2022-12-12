@@ -10,7 +10,7 @@
   "author": "jhondev (jma9974@gmail.com)",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "joi": "^14.3.1",
     "jsonld": "^3.0.1",
     "morgan": "^1.10.0"
